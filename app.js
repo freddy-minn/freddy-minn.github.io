@@ -126,18 +126,18 @@ tdl_btn.addEventListener("click",()=>{
 // End Projects Page
 
 // Start => Introduction My Self With Text Animation
-// let h3_animation = document.querySelector("#h3_animation");
-// let text_list = ["C|","Co|","Cod|","Code|","Coder|","Y|","Yo|","You|","YouT|","YouTu|","YouTube|","YouTuber|", "S|","St|","Stu|","Stud|","Stude|","Studen|","Student|"];
-// let colors = ["cyan","red","blue","yellow","green","purple","black","white","gold","red","cyan","red","blue","yellow","green","purple","black","white","gold"]
-// let i = 0;
-// setInterval(()=>{
-//     if(i == text_list.length){
-//         i = 0;
-//     }else{
-//         h3_animation.innerText = text_list[i];
-//         h3_animation.style.color = colors[i];
-//         i++;
-//     }
-// },200)
+let h3_animation = document.querySelector("#h3_animation");
+let text_list = ["C|","Co|","Cod|","Code|","Coder|","Y|","Yo|","You|","YouT|","YouTu|","YouTube|","YouTuber|", "S|","St|","Stu|","Stud|","Stude|","Studen|","Student|"];
+let colors = ["cyan","red","blue","yellow","green","purple","black","white","gold","red","cyan","red","blue","yellow","green","purple","black","white","gold"]
+let i = 0;
+setInterval(()=>{
+     if(i == text_list.length){
+         i = 0;
+     }else{
+         h3_animation.innerText = text_list[i];
+         h3_animation.style.color = colors[i];
+         i++;
+     }
+ },200)
 
 /* End => Introduction My Self With Text Animation */
