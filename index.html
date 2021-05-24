@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freddy Minn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start Creating Header Menu Bar -->
+
+    <header id="header_main">
+        <div id="header_div">
+            <div id="header_logo">
+                <img id="header_img" src="logo.png" alt="My Logo.png">
+                <h1 id="header_h1">Freddy <span>Minn</span></h1>
+            </div>
+            <span id="header_span">*=*</span>
+            <ul id="header_menu">
+                <li><a href="#" id="header_home_btn">home</a></li>
+                <li><a href="#about" id="header_about_btn">about</a></li>
+                <li><a href="#blogs" id="header_blogs_btn">blogs</a></li>
+                <li><a href="#projects" id="header_projects_btn">projects</a></li>
+                <li><a href="#contact" id="header_contact_btn">contact</a></li>
+                <li>
+                    <a href="#mamber" id="header_member_btn">member*</a>
+                    <ul>
+                        <li><a href="#login">login</a></li>
+                        <li><a href="#register">register</a></li>
+                        <li><a href="#logout">logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- End Creating Header Menu Bar -->
+
+    <!-- Start Home Page With Text Animation -->
+
+    <section id="home">
+        <div id="home_div">
+            <h2 id="home_h2">Who Am I?</h2>
+            <h3 id="home_h3">I Am A <span id="h3_animation">Coder|</span></h3>
+            <div id="home_btns">
+                <a href="#contact" id="home_contact_btn">Contact</a>
+                <a href="#about" id="home_about_btn">More</a>
+            </div>
+        </div>
+        <div></div>
+    </section>
+
+    <!-- End Creating Home Page With Text Animation -->
+
+    <!-- Start Creating About Page With Skills -->
+
+    <section id="about">
+        <div id="about_details">
+            <fieldset id="about_fieldset">
+                <legend>About</legend>
+                <div id="about_text">
+                    <h3>2019-2020</h3>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp; I have never thought to learn about "Teaching Method" in Myanmar, but have been learnt in Phaung Daw Oo Monastic School(PDO) in Mandalay. There are 6 main courses as Diploma Courses. TEAMS (Teaching English Association for Monastic School) is one the 6 main courses. Almost trainers are foreigners; train us who want to be teachers or trainers.</p>
+                    <span id="about_span"></span>
+                </div>
+                <div id="about_div_btn">
+                    <input id="about_more_btn" type="button" value="More">
+                </div>
+            </fieldset>
+        </div>
+        <div id="about_skills">
+            <h2 id="about_h2">Skills</h2>
+            <fieldset id="fieldset_frontend">
+                <legend>Frontend Skills</legend>
+                <div id="about_skills_fieldset_div">
+                    <h3>HTML5 (79.9%)</h3>
+                    <progress value="0.799"></progress>
+                </div>
+                <div id="about_skills_fieldset_div">
+                    <h3>CSS3 (78.1%)</h3>
+                    <progress value="0.781"></progress>
+                </div>
+                <div id="about_skills_fieldset_div">
+                    <h3>JavaScript (67.6%)</h3>
+                    <progress value="0.676"></progress>
+                </div>
+                <div id="about_skills_fieldset_div">
+                    <h3>BootStrap4 (55.3%)</h3>
+                    <progress value="0.553"></progress>
+                </div>
+            </fieldset>
+            <fieldset id="fieldset_backend">
+                <legend>Backend Skills</legend>
+                <div id="about_skills_fieldset_div">
+                    <h3>Python (54.2%)</h3>
+                    <progress value="0.542"></progress>
+                </div>
+                <div id="about_skills_fieldset_div">
+                    <h3>PHP (48.7%)</h3>
+                    <progress value="0.487"></progress>
+                </div>
+                <div id="about_skills_fieldset_div">
+                    <h3>NodeJS (51.8%)</h3>
+                    <progress value="0.518"></progress>
+                </div>
+                <div id="about_skills_fieldset_div">
+                    <h3>Java (38.6%)</h3>
+                    <progress value="0.386"></progress>
+                </div>
+            </fieldset>
+        </div>
+    </section>
+
+    <!-- End Creating About Page With Skills -->
+
+    <!-- Start Creating Projects Page -->
+
+    <!-- Start Projects Page Coding -->
+    <section id="projects">
+        <div id="projects_div">
+            <section id="calculator">
+                <fieldset id="cal">
+                    <legend>FR3D2Y-Calculator</legend>
+                    <form id="solution">
+                        <input id="main" type="text" name="main">
+                        <input type="button" value="Del" onclick="solution.main.value=''"><br>
+            
+                        <input type="button" value="9" onclick="solution.main.value+='9'">
+                        <input type="button" value="8" onclick="solution.main.value+='8'">
+                        <input type="button" value="7" onclick="solution.main.value+='7'">
+                        <input type="button" value="+" onclick="solution.main.value+='+'"><br>
+            
+                        <input type="button" value="6" onclick="solution.main.value+='6'">
+                        <input type="button" value="5" onclick="solution.main.value+='5'">
+                        <input type="button" value="4" onclick="solution.main.value+='4'">
+                        <input type="button" value="-" onclick="solution.main.value+='-'"><br>
+            
+                        <input type="button" value="3" onclick="solution.main.value+='3'">
+                        <input type="button" value="2" onclick="solution.main.value+='2'">
+                        <input type="button" value="1" onclick="solution.main.value+='1'">
+                        <input type="button" value="x" onclick="solution.main.value+='*'"><br>
+            
+                        <input type="button" value="." onclick="solution.main.value+='.'">
+                        <input type="button" value="0" onclick="solution.main.value+='0'">
+                        <input type="button" value="/" onclick="solution.main.value+='/'">
+                        <input type="button" value="=" onclick="solution.main.value=eval(solution.main.value)">
+                    </form>
+                </fieldset>
+                <h1 id="projects_h1">Projects</h1>
+                    <fieldset id="to_do_list">
+                        <legend>To Do List</legend>
+                        <input type="text" name="tdl" id="tdl_input">
+                        <input type="button" value="Add" id="tdl_button">
+                        <ol>
+                        </ol>
+                    </fieldset>
+            </section>
+        </div>
+        <div id="projects_div">
+            <fieldset id="cal">
+                <legend>Other Math Objects</legend>
+                <input type="text" style="border-radius: 0.2rem;" name="value" id="first" placeholder="First Number">
+                <input type="text" style="border-radius: 0.2rem;" name="value" id="second" placeholder="Last Number">
+                <input type="button" value="Sign" onclick="sign()">
+                <input type="button" value="Pow" onclick="pow()">
+                <input type="button" value="Sqrt" onclick="sqrt()">
+                <input type="button" value="Round" onclick="round()"><br>
+                <label for="result">Answer : </label><br>
+                <strong style="border-radius: 0.2rem;" name="value" id="result">Result</strong>
+            </fieldset>
+        </div>
+    </section>
+        <!-- End Projects Page Coding -->
+
+    <!-- End Creating Projects Page -->
+
+    <!-- Start Creating Contact Page -->
+
+    <section id="contact">
+        <div id="contact-div">
+            <fieldset>
+                <legend>Contact Me</legend>
+                <input type="text" name="contact-title" id="contact-title" placeholder="Title">
+                <textarea placeholder="Message"></textarea>
+                <div><button>Send</button></div>
+            </fieldset>
+        </div>
+    </section>
+
+    <!-- End Creating Contact Page -->
+
+    <!-- Start Creating Mamber Page for Login Page -->
+
+    <!-- <section id="mamber">
+        <div id="mamber_login">
+            <fieldset>
+                <legend>Login</legend>
+                <div>
+                    <label for="mamber_username">Username</label>
+                    <input type="text" name="username" id="mamber_username" placeholder="Username or E-mail">
+                </div>
+                <div>
+                    <label for="mamber_password">Password</label>
+                    <input type="password" name="login_pass" id="login_password" placeholder="Password">
+                </div>
+                <div id="mamber_div">
+                    <input type="button" value="Register" id="login_register">
+                    <input type="submit" value="Submit" id="login_submit">
+                </div>
+            </fieldset>
+        </div>
+    </section> -->
+
+    <!-- End Creating Mamber Page for Login Page -->
+    <div id="CopyRight">
+        <h2>CopyRight By <span>FR3D2Y</span> || Apirl in 2021</h2>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
