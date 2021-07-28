@@ -1,8 +1,8 @@
 const all_office = [{img : "../assets/img/office/zinmaung.jpg",name : "Zin Maung", en_name : "Jude", position : "Manager", email : "zinmaung2011@gmail.com", phone : "+959402598710", facebook : "Zin Maung"},
 {img : "../assets/img/office/naylinhtun.jpg",name : "Nay Lin Htun", en_name : "Justus", position : "Assistant Manager", email : "example@gmail.com", phone : "+959000000000", facebook : "Nay Lin Htun"},
-{img : "../assets/img/office/aungkyawzwah.jpg",name : "Aung Kyaw Zwah", en_name : "Oscar", position : "Senior", email : "aungkyaw@gmail.com", phone : "+959696066864", facebook : "Aung Kyaw Zwah"},
-{img : "../assets/img/office/chawei.jpg",name : "Chaw Ei", en_name : "?", position : "Senior", email : "ei@gmail.com", phone : "+959000000000", facebook : "Chaw Ei"},
-{img : "../assets/img/office/shunelaemay.jpg",name : "Shune Lae May", en_name : "?", position : "Senior", email : "zinmaung2011@gmail.com", phone : "+959000000000", facebook : "sXoon Lae May"},
+{img : "../assets/img/office/aungkyawzwah.jpg",name : "Aung Kyaw Zwah", en_name : "Oscar", position : "Senior", email : "example@gmail.com", phone : "+959696066864", facebook : "Aung Kyaw Zwah"},
+{img : "../assets/img/office/chawei.jpg",name : "Chaw Ei", en_name : "Marry", position : "Senior", email : "example@gmail.com", phone : "+959000000000", facebook : "Chaw Ei"},
+{img : "../assets/img/office/shunelaemay.jpg",name : "Shoon Lae May", en_name : "Sera", position : "Senior", email : "example@gmail.com", phone : "+959000000000", facebook : "sXoon Lae May"},
 {img : "../assets/img/office/theinhtikeaung.jpg",name : "Thein Htike Aung", en_name : "Lucas", position : "Senior", email : "theinhtike.lucas@gmail.com", phone : "+959407216800", facebook : "Thein Htike Aung"}];
 let input_office = document.querySelector('input'),
 office_btn = document.querySelector("button");
